@@ -55,7 +55,7 @@ public class ServerEnd {
 
 				try {
 					Thread.sleep(2000);
-					System.exit(0);
+					// System.exit(0);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -76,12 +76,12 @@ public class ServerEnd {
 		frmServerChat.setBackground(Color.WHITE);
 		frmServerChat.setTitle("G10 LAB 01 2022 INRS: Servidor");
 		frmServerChat.getContentPane().setForeground(Color.WHITE);
-		frmServerChat.setBounds(100, 100, 605, 403);
+		frmServerChat.setBounds(100, 100, 605, 450);
 		frmServerChat.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmServerChat.getContentPane().setLayout(null);
 
 		scrollPane = new JScrollPane();
-		scrollPane.setBounds(12, 134, 557, 157);
+		scrollPane.setBounds(12, 45, 557, 250);
 		frmServerChat.getContentPane().add(scrollPane);
 
 		textArea = new JTextArea();
